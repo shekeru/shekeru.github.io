@@ -19,13 +19,18 @@
 # in the templates via {{ site.myvariable }}.
 
 title: システムです
-email: your-email@example.com
+email: sheky@hrt.pw
 description: >- # this means to ignore newlines until "baseurl:"
   Jekyll Site Lol
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://desu.systems"
-twitter_username: 50_37_3
-github_username:  shekeru
+# Contact Info
+anime: cockslut
+spotify: e0aya29g64lx533n1mev31aoa
+lastfm: JewishLies
+twitter: "50_37_3"
+github: shekeru
+steam: ewq
 
 # Build settings
 theme: basic
