@@ -1,0 +1,15 @@
+<section id = "blog">
+  {% for post in site.posts %}
+  <section>
+    <header>
+      <h2 class="left">
+        <a class="post-link" href="{{ post.url | relative_url }}">
+          {{ post.title | escape }}
+        </a>
+      </h2>
+      <h3 class="right">{{post.date | date: "%b %-d, %Y"}}</h3>
+    </header><br>
+    <div>{{post.excerpt}}</div>
+  </section>
+  {% endfor %}
+</section>

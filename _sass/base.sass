@@ -1,43 +1,70 @@
 body
-  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji
+  font-family: $sans
+  background-color: white
 
 ul
+  white-space: nowrap
   list-style-type: none
-  padding-left: 1em
-  margin-bottom: 0.2em !important
+  padding-left: 4pt
+  margin: 2pt 0pt
 
 img
   max-height: 100%
   max-width: 100%
 
 h1, h2, h3, h4, h5, h6
+  white-space: nowrap
   font-weight: 600
   margin: 0px
 
+p
+  margin: 10pt
+
 a
+  font-family: $mono
   text-decoration: none
-  color: $blue
+  color: $links
+
+.left
+  float: left
+
+.right
+  float: right
 
 .card > *
-  border: 1pt solid $blue
+  border: 1pt solid $white
 
 .circle
   border-radius: 50%
 
+#blog
+  background-color: $white
+
+.post-link
+  margin-left: 24pt
+
 #index
-  margin-top: 2em
+  margin-top: 10pt
   justify-content: center
-  display: flex
+  display: inline-flex
+
+#index > article
+  width: min-content
 
 #links
+  background: white
   display: inline-flex
+  text-align: center
+  // color: $navy
 
 #links > div
   display: inline-block
   padding: 0px 6pt
 
 #profile
-  width: 20em
+  margin-left: 6pt
+  margin-right: 12pt
+  width: 200pt
 
 #profile > div
   text-align: center

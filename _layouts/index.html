@@ -3,5 +3,8 @@ layout: default
 ---
 <main id = "index">
   {% include profile.html %}
-  {{content}}
+  <article>
+    {{content}}
+    {% include blog.html %}
+  </article>
 </main>
