@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Executing Functioning"
+title:  "Executive Functioning"
 ---
 I feel like I've cut my working memory in half. Especially when doing coding practices. Or have I always been this much of a brainlet? Brains can remember events with relative clarity, but exactly what was being thought of, almost always gets forgotten. It's as if your working thoughts inhabit the same space as dreams. Your thoughts, reasonings, and feelings are ephemeral and usually lost forever.
 
