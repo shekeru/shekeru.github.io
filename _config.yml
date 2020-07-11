@@ -9,16 +9,17 @@
 # in the templates via {{ site.myvariable }}.
 
 title: システムです
+author: Shekychan
 email: sheky@hrt.pw
 description: >- # this means to ignore newlines until "baseurl:"
-  Jekyll Site Lol
+  Shekychan's Colorful Blog
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://desu.systems"
 # Contact Info
 anime: cockslut
 spotify: e0aya29g64lx533n1mev31aoa
 lastfm: JewishLies
-twitter: "cytotoxicities"
+twitter: cytotoxicities
 github: shekeru
 steam: ewq
 
