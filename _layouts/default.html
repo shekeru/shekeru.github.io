@@ -2,15 +2,16 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>{{site.title}}</title>
-  <link rel="stylesheet" href="{{'/assets/main.css'}}">
   <link rel="icon" href="/favicon.ico">
+  <link rel="stylesheet" href="{{'/assets/main.css'}}">
   <!-- Twitter cards -->
   <meta name="twitter:site"    content="{{ site.url }}">
   <meta name="twitter:creator" content="{{ site.author }}">
   {% if page.title %}
+  <title>{{page.title}}</title>
   <meta name="twitter:title"   content="{{ page.title }}">
   {% else %}
+  <title>{{site.title}}</title>
   <meta name="twitter:title"   content="{{ site.title }}">
   {% endif %}
   {% if page.excerpt %}
