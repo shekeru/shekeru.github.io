@@ -2,5 +2,11 @@
 layout: index
 ---
 <section id = "blog">
-  {{content}}
+  <div>{{content}}</div>
+  <h3 class="left">{{page.date | date: "%b %-d, %Y"}}</h3>
+  <h2 class="right">
+    <a class="post-link" href="/">
+      {{ page.title | escape }}
+    </a>
+  </h2>
 </section>

@@ -23,6 +23,7 @@ twitter: cytotoxicities
 github: shekeru
 steam: ewq
 
+permalink: /:title-:month
 # Build settings
 theme: basic
 plugins:
