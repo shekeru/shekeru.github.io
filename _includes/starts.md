@@ -33,7 +33,8 @@
 {% endcapture %}
 {% capture sites %}
 * [images](https://illegal.pics)
-* [my box](https://hrt.pw)
+* [server](https://hrt.pw)
+* [my bf](https://ferret.city)
 {% endcapture %}
 {% capture lewd %}
 * [/gif/](https://4chan.org/gif)
