@@ -34,7 +34,7 @@
 {% capture sites %}
 * [images](https://illegal.pics)
 * [server](https://hrt.pw)
-* [my bf](https://ferret.city)
+<!-- * [my bf](https://ferret.city) -->
 {% endcapture %}
 {% capture lewd %}
 * [/gif/](https://4chan.org/gif)
